@@ -31,6 +31,7 @@ button {
 .hero {
     background-color: cadetblue;
     height: 70vh;
+    background-image: url(fotos/Forelle_nackig1.JPG);
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -38,19 +39,29 @@ button {
 
 .hero>h1 {
     position: absolute;
-    left: 10vw;
-    top: 30vh;
-    color: white;
-    font-size: 3vw;
+    left: 32vw;
+    top: 1vh;
+    color: darkslategray;
+    font-size: 4vw;
 }
 
 .hero>h2 {
     position: absolute;
-    left: 10vw;
-    top: 40vh;
-    color: teal;
+    left: 48vw;
+    top: 13vh;
+    color: black;
     font-size: 2vw;
     font-weight: 300;
+}
+
+.hero>h3{
+    position: absolute;
+    left: 48vw;
+    top: 17vh;
+    color: black;
+    font-size: 2vw;
+    font-weight: 300;
+
 }
 
 .frame{
