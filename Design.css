@@ -41,7 +41,8 @@ button {
     position: absolute;
     left: 32vw;
     top: 1vh;
-    color: darkslategray;
+    color: white;
+    background-color:cadetblue;
     font-size: 4vw;
 }
 
@@ -49,7 +50,8 @@ button {
     position: absolute;
     left: 48vw;
     top: 13vh;
-    color: black;
+    color:white;
+    background-color: darkslategray;
     font-size: 2vw;
     font-weight: 300;
 }
@@ -58,7 +60,8 @@ button {
     position: absolute;
     left: 48vw;
     top: 17vh;
-    color: black;
+    color:white;
+    background-color: darkslategray;
     font-size: 2vw;
     font-weight: 300;
 
