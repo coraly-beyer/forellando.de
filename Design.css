@@ -1,0 +1,24 @@
+body {
+    background-color: grey;
+
+}
+.hero {
+    background-color: cadetblue;
+    height: 200px;
+    width: 800px;
+    
+}   
+
+
+h1 {
+    background-color: blue;
+
+
+}
+.frame{
+    background-color: blue;
+
+}
+.rand{
+    border:black 2px;
+}
