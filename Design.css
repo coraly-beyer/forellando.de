@@ -5,10 +5,22 @@ body {
     margin: 0;
 
 }
-h1,h2,h3,h4 {
+
+h5 {
     margin: 0;
+    font-size: 2.5vw;
+}
+
+h1,h2,h3,h4 {
+    margin: 10;
+    font-size: 1.5vw;
 
 
+}
+
+button {
+    background-color: cadetblue;
+    color: white;
 }
 
 .header{
@@ -40,6 +52,7 @@ h1,h2,h3,h4 {
     font-size: 2vw;
     font-weight: 300;
 }
+
 .frame{
     width: 80vw;
     margin: auto auto;
@@ -66,3 +79,8 @@ footer{
 .bkgr_color2 {background-color: blue;}
 .bkgr_color3 {background-color: cadetblue;}
 .bkgr_color4 {background-color: darkslategray;}
+
+.shadow {
+    -webkit-box-shadow: 0 5px 4px 4px #c4c4c4;
+    box-shadow: 0 5px 4px 4px #c4c4c4;
+}
