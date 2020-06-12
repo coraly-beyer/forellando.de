@@ -82,6 +82,11 @@ footer{
     color:white;
 }
 
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
 .padding1{padding: 3vw;
 
 }
