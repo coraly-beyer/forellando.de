@@ -98,3 +98,12 @@ footer{
     -webkit-box-shadow: 0 5px 4px 4px #c4c4c4;
     box-shadow: 0 5px 4px 4px #c4c4c4;
 }
+.left {
+    float: left;
+    width: 300px;
+
+}
+.mitte {
+float: right;
+
+}
