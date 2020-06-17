@@ -1,0 +1,164 @@
+body {
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+
+}
+
+h5 {
+    margin: 0;
+    font-size: 2.5vw;
+}
+
+h1,h2,h3,h4 {
+    margin: 10;
+    font-size: 1.5vw;
+
+
+}
+
+button {
+    background-color: cadetblue;
+    color: white;
+    padding: 2vh 3vw;
+    text-align: center;
+    font-size: 1vw;
+    border: none;
+    
+}
+
+.hero .button {
+    background-color: cadetblue;
+    color: white;
+    padding: 2vh 3vw;
+    text-align: center;
+    font-size: 1vw;
+    border: none;
+    left: 50%;
+    top: 40%;
+
+}
+
+.header{
+    background-color: white ;
+    color: rgb(47, 79, 79);
+
+}
+  
+.hero {
+    background-color: cadetblue;
+    height: 70vh;
+    background-image: url(fotos/Forelle_nackig1.JPG);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}   
+
+.hero>h1 {
+    position: absolute;
+    left: 32vw;
+    top: 1vh;
+    color: white;
+    background-color:cadetblue;
+    font-size: 4vw;
+}
+
+.hero>h2 {
+    position: absolute;
+    left: 48vw;
+    top: 13vh;
+    color:white;
+    background-color: darkslategray;
+    font-size: 2vw;
+    font-weight: 300;
+}
+
+.hero>h3{
+    position: absolute;
+    left: 48vw;
+    top: 17vh;
+    color:white;
+    background-color: darkslategray;
+    font-size: 2vw;
+    font-weight: 300;
+
+}
+
+.frame{
+    width: 80vw;
+    margin: auto auto;
+
+}
+.rand{
+    border:black 2px;
+    background-color: lightblue;
+}
+
+footer{
+    background-color:dimgray;
+    color:white;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.padding1{padding: 3vw;
+
+}
+
+.bkgr_color1 {background-color: lightblue;}
+.bkgr_color2 {background-color: blue;}
+.bkgr_color3 {background-color: cadetblue;}
+.bkgr_color4 {background-color: darkslategray;}
+
+.shadow {
+    -webkit-box-shadow: 0 5px 4px 4px #c4c4c4;
+    box-shadow: 0 5px 4px 4px #c4c4c4;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto
+
+}
+
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    line-height: 70px;
+    background-color: darkslategray;
+    border-bottom: 2px solid white;
+}
+
+.logo {
+    width: 70px;
+    float: left;
+}
+
+.menu {
+    float: right;
+
+}
+.menu li {
+    float: left;
+    width: 120px;
+    height: 70px;
+    line-height: 40px;
+    text-align: center;
+    list-style: none;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+}
+
+.menu li:hover {
+    background-color: cadetblue;
+}
