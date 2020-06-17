@@ -21,13 +21,31 @@ h1,h2,h3,h4 {
 button {
     background-color: cadetblue;
     color: white;
+    padding: 2vh 3vw;
+    text-align: center;
+    font-size: 1vw;
+    border: none;
+    
+}
+
+.hero .button {
+    background-color: cadetblue;
+    color: white;
+    padding: 2vh 3vw;
+    text-align: center;
+    font-size: 1vw;
+    border: none;
+    left: 50%;
+    top: 40%;
+
 }
 
 .header{
-    background-color: dimgrey ;
-    color: white;
-    height: 5vh;
+    background-color: white ;
+    color: rgb(47, 79, 79);
+
 }
+  
 .hero {
     background-color: cadetblue;
     height: 70vh;
@@ -99,4 +117,48 @@ footer{
 .shadow {
     -webkit-box-shadow: 0 5px 4px 4px #c4c4c4;
     box-shadow: 0 5px 4px 4px #c4c4c4;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto
+
+}
+
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    line-height: 70px;
+    background-color: darkslategray;
+    border-bottom: 2px solid white;
+}
+
+.logo {
+    width: 70px;
+    float: left;
+}
+
+.menu {
+    float: right;
+
+}
+.menu li {
+    float: left;
+    width: 120px;
+    height: 70px;
+    line-height: 40px;
+    text-align: center;
+    list-style: none;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+}
+
+.menu li:hover {
+    background-color: cadetblue;
 }
