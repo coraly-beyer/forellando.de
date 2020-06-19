@@ -1,3 +1,5 @@
+/* Allgemein */
+
 body {
     background-color:white;
     font-family: Arial, Helvetica, sans-serif;
@@ -5,6 +7,13 @@ body {
     margin: 0;
 
 }
+
+.bkgr_color1 {background-color: lightblue;}
+.bkgr_color2 {background-color: blue;}
+.bkgr_color3 {background-color: cadetblue;}
+.bkgr_color4 {background-color: darkslategray;}
+
+/*Schrift*/
 
 h5 {
     margin: 0;
@@ -14,9 +23,9 @@ h5 {
 h1,h2,h3,h4 {
     margin: 10;
     font-size: 1.5vw;
-
-
 }
+
+/*Buttons*/
 
 button {
     background-color: cadetblue;
@@ -24,27 +33,10 @@ button {
     padding: 2vh 3vw;
     text-align: center;
     font-size: 1vw;
-    border: none;
-    
+    border: none;  
 }
 
-.hero .button {
-    background-color: cadetblue;
-    color: white;
-    padding: 2vh 3vw;
-    text-align: center;
-    font-size: 1vw;
-    border: none;
-    left: 50%;
-    top: 40%;
-
-}
-
-.header{
-    background-color: white ;
-    color: rgb(47, 79, 79);
-
-}
+/* Titelbild*/ 
   
 .hero {
     background-color: cadetblue;
@@ -82,53 +74,9 @@ button {
     background-color: darkslategray;
     font-size: 2vw;
     font-weight: 300;
-
 }
 
-.frame{
-    width: 80vw;
-    margin: auto auto;
-
-}
-.rand{
-    border:black 2px;
-    background-color: lightblue;
-}
-
-footer{
-    background-color: rgb(177, 169, 169);
-    width: 100%;
-    height:100px;
-    color: white;
-    text-align: center;
-    font-size: 14px;
-    float: left;
-
-}
-
-footer #footer_menu {
-    margin: 70px;
-
-}
-
-
-.flex {
-    display: flex;
-    justify-content: space-between;
-}
-.padding1{padding: 3vw;
-
-}
-
-.bkgr_color1 {background-color: lightblue;}
-.bkgr_color2 {background-color: blue;}
-.bkgr_color3 {background-color: cadetblue;}
-.bkgr_color4 {background-color: darkslategray;}
-
-.shadow {
-    -webkit-box-shadow: 0 5px 4px 4px #c4c4c4;
-    box-shadow: 0 5px 4px 4px #c4c4c4;
-}
+/*Navigationsleiste*/
 
 .container {
     width: 90%;
@@ -172,4 +120,60 @@ footer #footer_menu {
 
 .menu li:hover {
     background-color: cadetblue;
+}
+
+
+/*Body*/
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.padding1{padding: 3vw;
+
+}
+
+.frame{
+    width: 100vw;
+    margin: auto auto;
+
+}
+
+.shadow {
+    -webkit-box-shadow: 0 5px 4px 4px #c4c4c4;
+    box-shadow: 0 5px 4px 4px #c4c4c4;
+}
+
+#links {
+width: 12em;
+float: left;
+}
+
+#mitte {
+margin-left: 12em;
+margin-right: 12em;
+}
+
+#rechts {
+width: 12em;
+float: right;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(177, 169, 169);
+    width: 100%;
+    height:100px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+
+}
+
+footer #footer_menu {
+    margin: 70px;
+
 }
