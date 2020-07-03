@@ -137,7 +137,7 @@ button {
 .frame{
     width: 100vw;
     margin: auto auto;
-    height: 20vw;
+    height: 15vw;
 
 }
 
@@ -169,7 +169,7 @@ text-align: center;
 
 .left {
     width: 33%;
-    height: 30vw;
+    height: 35vw;
     float: left;
     margin: 0 0.1%;
 
@@ -184,6 +184,38 @@ aside {
     
 }
 
+.profil2 {
+    width: 90%;
+    height: 20vw;
+    display: flex;
+    justify-content: center; 
+        align-items: center;
+
+}
+
+.frame4 {
+    width: 100%;
+    height: 3vw;
+}
+
+.frame5 {
+    width: 100%;
+    height: 40vw;
+}
+
+.zentriert {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    
+}
+
+.frame6 {
+    width: 100%;
+    height: 1vw;
+
+}
 
 
 /*Kontakt*/
