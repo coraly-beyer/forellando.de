@@ -21,7 +21,7 @@ h5 {
 }
 
 h1,h2,h3,h4 {
-    margin: 10;
+    margin: 0;
     font-size: 1.5vw;
 }
 
@@ -123,12 +123,28 @@ button {
 }
 
 
-/*Body*/
+/*Style für die Rezepte Ecke*/
 
 .flex {
     display: flex;
     justify-content: space-between;
 }
+
+.flex_rezepte {
+    display: flex;
+    justify-content: space-between;
+}
+.flex_rezepte article {
+    flex: 1;
+    padding: 0.25vw;
+    text-align: center;
+}
+
+.flex_rezepte article img {
+    width: 100%;
+}
+
+
 
 .padding1{padding: 3vw;
 
@@ -137,7 +153,7 @@ button {
 .frame{
     width: 100vw;
     margin: auto auto;
-    height: 15vw;
+    #height: 15vw;
 
 }
 
@@ -241,5 +257,27 @@ footer{
 
 footer #footer_menu {
     margin: 70px;
+
+}
+
+
+
+@media (max-width: 32em) { /* das ist ein Bedingung, Conditional Abfage */
+
+    /* hier drin kommen normale CSS Regel rein, die nur gelten, wenn die Bedingung stimmt */
+
+
+    .hero {
+        background-position: left center;
+    }   
+
+
+    .flex_rezepte {
+        display: block;
+    }
+    .flex_rezepte article img {
+        width: auto;
+    }
+
 
 }
