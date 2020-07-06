@@ -1,7 +1,7 @@
 /* Allgemein */
 
 body {
-    background-color:white;
+    background-color: darkslategray;
     font-family: 'Arial, Helvetica', sans-serif;
     color: white;
     margin: 0;
@@ -20,20 +20,27 @@ h5 {
     font-size: 2.5vw;
 }
 
+h6{
+    font-size: 3vw;
+}
+
+
 h1,h2,h3,h4 {
     margin: 0;
     font-size: 1.5vw;
 }
-
+.font_size {
+    font-size: 2vw;
+}
 /*Buttons*/
 
 button {
-    background-color: cadetblue;
+    background-color: darkslategray;
     color: white;
     padding: 2vh 3vw;
     text-align: center;
     font-size: 1vw;
-    border: none;  
+
 }
 
 /* Titelbild*/ 
@@ -123,12 +130,37 @@ button {
 }
 
 
-/*Style für die Rezepte Ecke*/
+/*Body*/
 
 .flex {
     display: flex;
     justify-content: space-between;
 }
+
+
+.padding1{padding: 1vw;
+
+}
+
+.frame{
+    width: 100vw;
+    margin: auto auto;
+
+}
+
+
+.shadow {
+    -webkit-box-shadow: 0 5px 4px 4px #c4c4c4;
+    box-shadow: 0 5px 4px 4px #c4c4c4;
+}
+
+.textcenter { 
+text-align: center;
+
+}
+
+/*Seite Rezepte*/
+
 
 .flex_rezepte {
     display: flex;
@@ -144,52 +176,6 @@ button {
     width: 100%;
 }
 
-
-
-.padding1{padding: 3vw;
-
-}
-
-.frame{
-    width: 100vw;
-    margin: auto auto;
-    #height: 15vw;
-
-}
-
-.frame2 {
-    width: 100vw;
-    margin: auto auto; 
-
-
-}
-
-.shadow {
-    -webkit-box-shadow: 0 5px 4px 4px #c4c4c4;
-    box-shadow: 0 5px 4px 4px #c4c4c4;
-}
-
-.textcenter { 
-text-align: center;
-
-}
-
-/*Seite Rezepte*/
-
-.frame3 {
-    width: 80vw;
-    margin: auto auto;
-    height: 30vw;
-   
-}
-
-.left {
-    width: 33%;
-    height: 35vw;
-    float: left;
-    margin: 0 0.1%;
-
-}
 
 aside {
     width: 100%;
@@ -209,15 +195,7 @@ aside {
 
 }
 
-.frame4 {
-    width: 100%;
-    height: 3vw;
-}
 
-.frame5 {
-    width: 100%;
-    height: 40vw;
-}
 
 .zentriert {
     display: flex;
@@ -227,11 +205,6 @@ aside {
     
 }
 
-.frame6 {
-    width: 100%;
-    height: 1vw;
-
-}
 
 
 /*Kontakt*/
@@ -260,9 +233,9 @@ footer #footer_menu {
 
 }
 
+/* Ansicht auf Handy */
 
-
-@media (max-width: 32em) { /* das ist ein Bedingung, Conditional Abfage */
+@media (max-width: 50em) { /* das ist ein Bedingung, Conditional Abfage */
 
     /* hier drin kommen normale CSS Regel rein, die nur gelten, wenn die Bedingung stimmt */
 
