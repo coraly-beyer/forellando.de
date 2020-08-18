@@ -21,12 +21,18 @@ body {
 /*Schrift*/
 
 h5 {
-    margin: 0;
+    margin: 1.5vw;
     font-size: 2.5vw;
+    background-color: cadetblue;
+    font-weight: 300;
+
 }
 
 h6{
-    font-size: 3vw;
+    font-size: 2.5vw;
+    margin: 1.5vw;
+    font-weight: 300;
+    
 }
 
 
@@ -36,11 +42,14 @@ h1,h2,h3,h4 {
 }
 .font_size {
     font-size: 2vw;
+    margin: 1vw; 
+    text-align: center;
 }
+
 /*Buttons*/
 
 button {
-    background-color: darkslategray;
+    background-color:cadetblue;
     color: white;
     padding: 2vh 3vw;
     text-align: center;
@@ -53,40 +62,12 @@ button {
 .hero {
     background-color: cadetblue;
     height: 70vh;
-    background-image: url(fotos/forelle_nackig1.jpg);
+    background-image: url(fotos/forelle_header.jpg);
     background-size: cover;
     background-position: center center;
     position: relative;
 }   
 
-.hero>h1 {
-    position: absolute;
-    left: 32vw;
-    top: 1vh;
-    color: white;
-    background-color:cadetblue;
-    font-size: 4vw;
-}
-
-.hero>h2 {
-    position: absolute;
-    left: 48vw;
-    top: 13vh;
-    color:white;
-    background-color: darkslategray;
-    font-size: 2vw;
-    font-weight: 300;
-}
-
-.hero>h3{
-    position: absolute;
-    left: 48vw;
-    top: 17vh;
-    color:white;
-    background-color: darkslategray;
-    font-size: 2vw;
-    font-weight: 300;
-}
 
 /*Navigationsleiste*/
 
@@ -144,6 +125,7 @@ button {
 
 
 .padding1{padding: 1vw;
+    font-size: 2vw;
 
 }
 
@@ -210,14 +192,32 @@ aside {
     
 }
 
+/*Seite Ausnehmen*/
 
 
-/*Kontakt*/
+/* Seite Kontakt*/
+
+.hero5 {
+    height: 50vh;
+    background-image: url(fotos/kontakt_header.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
 
 .profil1 {
     border-radius: 10vw;
     width: 15vw;
+    text-align: center;
 
+}
+
+.frame1 {
+
+    width: 100%;
+
+    margin: 1vw;
 }
 
 /* Footer */
